@@ -13,7 +13,6 @@
             <TextBox x:Name="tbBenutzername" HorizontalAlignment="Left" Height="23" Margin="173,107,0,0" TextWrapping="Wrap" Text="Benutzername" VerticalAlignment="Top" Width="120" FontStyle="Italic" FontWeight="ExtraLight"/>
             <TextBox x:Name="tbPasswort" HorizontalAlignment="Left" Height="23" Margin="173,167,0,0" TextWrapping="Wrap" Text="Passwort" VerticalAlignment="Top" Width="120" FontStyle="Italic" FontWeight="ExtraLight"/>
             <Button Content="Login" HorizontalAlignment="Left" Margin="173,197,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
-            <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="405,63,0,0" VerticalAlignment="Top"/>
         </Grid>
 
     </Grid>
