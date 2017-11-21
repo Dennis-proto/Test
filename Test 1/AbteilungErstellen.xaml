@@ -1,0 +1,17 @@
+﻿<Window x:Name="winAbteilungErstellen" x:Class="Test_1.wAbteilungErstellen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_1"
+        mc:Ignorable="d"
+        Title="Abteilung Erstellen" Height="300" Width="300" WindowState="Maximized">
+    <Grid>
+        <TextBox x:Name="tbAbteilung" HorizontalAlignment="Left" Height="23" Margin="55,72,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbKostenstelle" HorizontalAlignment="Left" Height="23" Margin="55,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Abteilung erstellen" HorizontalAlignment="Left" Margin="55,164,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+        <Label Content="Abteilung" HorizontalAlignment="Left" Margin="55,41,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Kostenstelle" HorizontalAlignment="Left" Margin="55,100,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

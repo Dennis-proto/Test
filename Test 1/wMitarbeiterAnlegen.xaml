@@ -1,0 +1,39 @@
+﻿<Window x:Class="Test_1.wMitarbeiterAnlegen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_1"
+        mc:Ignorable="d"
+        Title="Mitarbeiter Anlegen" Height="664.031" Width="961.661" WindowState="Maximized">
+    <Grid x:Name="gdBackground">
+        <Label Content="Personalnummer" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vorname" HorizontalAlignment="Left" Margin="386,100,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nachname" HorizontalAlignment="Left" Margin="646,100,0,0" VerticalAlignment="Top"/>
+        <Label Content="Abteilung" HorizontalAlignment="Left" Margin="100,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Eintritt" HorizontalAlignment="Left" Margin="386,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telefon" HorizontalAlignment="Left" Margin="646,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="E-Mailadresse" HorizontalAlignment="Left" Margin="100,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Benutzername" HorizontalAlignment="Left" Margin="386,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Passwort" HorizontalAlignment="Left" Margin="646,180,0,0" VerticalAlignment="Top"/>
+        <Label Content="Geburtsdatum" HorizontalAlignment="Left" Margin="100,220,0,0" VerticalAlignment="Top"/>
+        <Label Content="Adresse" HorizontalAlignment="Left" Margin="386,220,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="646,220,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="100,264,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="100,580,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbPersonalnummer" HorizontalAlignment="Left" Height="23" Margin="220,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbVorname" HorizontalAlignment="Left" Height="23" Margin="506,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbNachname" HorizontalAlignment="Left" Height="23" Margin="766,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbAbteilung" HorizontalAlignment="Left" Height="23" Margin="220,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbEintritt" HorizontalAlignment="Left" Height="23" Margin="506,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbTelefon" HorizontalAlignment="Left" Height="23" Margin="766,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbEMailadresse" HorizontalAlignment="Left" Height="23" Margin="220,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbBenutzername" HorizontalAlignment="Left" Height="23" Margin="506,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbPasswort" HorizontalAlignment="Left" Height="23" Margin="766,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbGeburtsdatum" HorizontalAlignment="Left" Height="23" Margin="220,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbAdresse" HorizontalAlignment="Left" Height="23" Margin="506,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="766,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="anlegen" HorizontalAlignment="Left" Margin="766,264,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+
+    </Grid>
+</Window>

@@ -5,14 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test_1"
         mc:Ignorable="d"
-        Title="Login" Height="350" Width="525">
+        
+        Title="Login" Height="350" Width="500">
     <Grid>
         <Grid HorizontalAlignment="Left" Height="300" Margin="10,10,0,0" VerticalAlignment="Top" Width="497">
             <Label x:Name="lblBenutzername" Content="Benutzername" HorizontalAlignment="Left" Margin="173,77,0,0" VerticalAlignment="Top" Width="120"/>
             <Label x:Name="lblPasswort" Content="Passwort" HorizontalAlignment="Left" Margin="173,137,0,0" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="tbBenutzername" HorizontalAlignment="Left" Height="23" Margin="173,107,0,0" TextWrapping="Wrap" Text="Benutzername" VerticalAlignment="Top" Width="120" FontStyle="Italic" FontWeight="ExtraLight"/>
-            <TextBox x:Name="tbPasswort" HorizontalAlignment="Left" Height="23" Margin="173,167,0,0" TextWrapping="Wrap" Text="Passwort" VerticalAlignment="Top" Width="120" FontStyle="Italic" FontWeight="ExtraLight"/>
+            <TextBox x:Name="tbBenutzername" HorizontalAlignment="Left" Height="23" Margin="173,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Arial Black" />
+            <PasswordBox x:Name="tbPasswort" HorizontalAlignment="Left" Margin="173,167,0,0" VerticalAlignment="Top" Width="120"/>
             <Button Content="Login" HorizontalAlignment="Left" Margin="173,197,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
+            
         </Grid>
 
     </Grid>
