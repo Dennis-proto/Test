@@ -14,7 +14,8 @@
             <TextBox x:Name="tbBenutzername" HorizontalAlignment="Left" Height="23" Margin="173,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="Arial Black" />
             <PasswordBox x:Name="tbPasswort" HorizontalAlignment="Left" Margin="173,167,0,0" VerticalAlignment="Top" Width="120"/>
             <Button Content="Login" HorizontalAlignment="Left" Margin="173,197,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click"/>
-            
+            <Button Content="Button" HorizontalAlignment="Left" Margin="362,70,0,0" VerticalAlignment="Top" Width="75"/>
+
         </Grid>
 
     </Grid>
