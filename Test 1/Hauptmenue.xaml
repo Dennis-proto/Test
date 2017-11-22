@@ -6,9 +6,7 @@
         xmlns:local="clr-namespace:Test_1"
         mc:Ignorable="d"
         Title="Hauptmenü" Height="324" Width="300" WindowState="Maximized">
-    
-    // Test
-    
+       
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="40*"/>
